@@ -1,0 +1,228 @@
+/* inter-500 - cyrillic_cyrillic-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-cyrillic_cyrillic-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+*, ::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 2.0;
+    font-weight: normal;
+    color: white;
+}
+
+.wrapper{
+    padding-left: 57px;
+    padding-right: 57px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header style start */
+
+.header{
+    background-color: #001529;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.header_item{
+    margin-right: 150px;
+}
+
+.header_item_2{
+    margin-right: 50px;
+}
+
+.header_item_3:last-child{
+    margin-right: 36px;
+}
+
+.header_item_3 button{
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.rectangular-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .rectangular-button:hover, .rectangular-button:focus, .rectangular-button:active {
+    opacity: 0.75;
+  }
+
+.header_link{
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+     opacity: 0.75;
+} 
+
+/* Header style end */
+
+/* Intro style start */
+
+.intro{
+    height: 100vh;
+    background: linear-gradient(41deg, #FFF 24.49%, #1A6F8F 100%) no-repeat center;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+
+.wrapper_intro{
+    padding-left: 20px;
+    padding-right: 40px;
+    max-width: 1440px;
+}
+
+.intro_title{
+    max-width: 761px;
+    font-weight: 400px;
+    font-size: 55px;
+    margin-left: 82px;
+    line-height: 96.82px;
+    color: #000;
+    margin-bottom: 12px;
+}
+.intro_subtitle{
+    max-width: 761px;
+    color:#000;
+    font-size: 15px;
+    line-height: 24.2px;
+    margin-left: 82px;
+    margin-bottom: 50px;
+}
+
+.intro_item{
+    margin-left: 50px;
+}
+
+.rectangular-button_2 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 4px solid #A7CAFF;
+    background: #000;
+    color: white;
+    text-decoration: none;
+  }
+
+  .rectangular-button_2:hover, .rectangular-button_2:focus, .rectangular-button_2:active {
+    opacity: 0.75;
+  }
+
+ .intro_logo {
+    top: 60;
+    left: 73;
+    right: 901;
+}
+
+/* Intro style end */
+
+/* Opportunity style start */
+
+.opp_wrap{
+    max-width: 1440px;
+    background-color: #001529;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 33px;
+    align-items: flex-end;
+    height: 150vh;
+    text-align: center;
+
+}
+
+.opp_title{
+    font-weight: 350px;
+    color: #FFF;
+    font-size: 65px;
+    line-height: 96.82px;
+    padding: 55px 200px 620px 335px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line-shape {
+    display: block;
+    width: 640px;
+    height: 10px;
+    background-color: #AFA8FF;
+    margin-top: auto;
+    padding-top: 18.04;
+    margin-bottom: 114.81px;
+}
+
+.opp_cards{
+    display: grid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 58px;
+    margin-left: 86px;
+    margin-right: 86px;
+    justify-content: space-between;
+    margin-top: 290px;
+
+}
+
+.opp_card-title{
+     line-height: 89px;
+     font-size: 19px;
+}
+
+.opp_card-title_3{
+    line-height: 85px;
+}
+
+.opp_subtitle{
+    max-width: 761px;
+    color:white;
+    font-size: 15px;
+    margin-left: 82px;
+    padding: 713px, 121px, 46px, 80px;
+    position: absolute;
+    margin-top: 234px;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+/* Opportunity style end */
